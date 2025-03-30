@@ -10,6 +10,7 @@ import githubcolor from "./githubcolor.png";
 import cv from "./cv.png";
 import heyyo from "./heyyo.jpg";
 
+
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
@@ -32,6 +33,7 @@ import shopify from "./company/shopify.png";
 import cmrit from "./company/cmrit.png";
 import heapoly from "./company/heapoly.png";
 import linkedin from "./linkedin.svg";
+import hongkong from './company/hongkong.png';
 
 import evoter from "./evoter.png";
 import objdet from "./objdet.png";
@@ -73,6 +75,7 @@ export {
   javascript,
   sql,
   nodejs,
+  hongkong,
   reactjs,
   python,
   tailwind,

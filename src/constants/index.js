@@ -18,6 +18,7 @@ import {
   cmrit,
   heapoly,
   evoter,
+  hongkong,
   heyyo,
   objdet,
   threejs,
@@ -130,11 +131,11 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Computer Science Engineering Student",
-    company_name: "CMRIT",
+    title: "Senior Full Stack Developer",
+    company_name: "bbpos",
     icon: cmrit,
     iconBg: "#383E56",
-    date: "December 2021 - Present",
+    date: "December 2022 - Jan 2025",
     points: [
       "Created and managed web applications utilizing React.js and other relevant technologies as part of various projects.",
       "Developed Android applications utilizing Java, Flutter, and other relevant technologies including Firebase as part of different projects.",
@@ -144,11 +145,24 @@ const experiences = [
     ],
   },
   {
-    title: "CS Diploma Student",
-    company_name: "HEA Polytechnic",
+    title: "Full Stack Developer",
+    company_name: "yuneec",
     icon: heapoly,
     iconBg: "#E6DEDD",
-    date: "Jan 2018 - Dec 2021",
+    date: "Sep 2018 - Dec 2022",
+    points: [
+      "Developed a fully-featured property management system using React.js and Node.js",
+      "Integrated automated tenant communication tools",
+      "Built a robust property listing and search functionality using React.js",
+      "Collaborated closely with the product team"
+      ],
+  },
+  {
+    title: "student",
+    company_name: "University of Hong Kong",
+    icon: hongkong,
+    iconBg: "#E6DEDD",
+    date: "Sep 2014 - Aug 2018",
     points: [
       "Acquired proficiency in C, C++, Python, and Java, as well as delving into advanced topics like computer vision.",
       "Developed and implemented a real-time Intrusion Detection System using Python, enhancing my machine learning skills.",

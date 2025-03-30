@@ -23,15 +23,7 @@ const Navbar = () => {
           <p className='text-white text-[18px] font-bold cursor-pointer flex'> Justin Ma </p>
         </Link>
         <ul className='list-none hidden sm:flex flex-row gap-10'>
-          <Link to='https://drive.google.com/file/d/1aLb3ixrh6GKjB2M0hlR4rrU71DUIUIlw/view?usp=sharing' target='_blank'>
-            <img src={cv} alt='Resume' className='w-9 h-9 cursor-pointer' />
-          </Link>
-          <Link to='https://github.com/arshad-syed18' target='_blank'>
-            <img src={githubcolor} alt='GitHub' className='w-9 h-9 cursor-pointer' />
-          </Link>
-          <Link to='https://www.linkedin.com/in/syed-arshad-6a2728173/' target='_blank'>
-            <img src={linkedin} alt='LinkedIn' className='w-9 h-9 cursor-pointer' />
-          </Link>
+          
           {navLinks.map((link) => (
             <li key={link.id} className={`${active === link.title ? "text-white" : "text-secondary"} 
               hover:text-white text-[18px] font-medium cursor-pointer`}
